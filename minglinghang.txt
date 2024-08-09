@@ -1,0 +1,27 @@
+python .\demo_flct.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\solar-upflow.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Solar_demo\three
+_nju_simple\
+
+ python .\demo_demons.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\solar-upflow.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Solar_demo\thr
+ee_nju_simple\
+
+python .\demo_uflow.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\60000_solar-uflow.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Solar_demo
+\three_nju_simple\
+
+python .\demo_upflow.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\60000_solar-upflow.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Solar_de
+mo\three_nju_simple\
+
+python .\demo_mlo.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\unet-solar-mlo.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Solar_demo\thre
+e_nju_simple\
+
+python .\demo_un_re.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\solar-un-ar-fbar-loss-s.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Sola
+r_demo\three_nju_simple\
+
+python .\demo_un_fig3.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\30000_solar-un-ar-fbar-s.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\S
+olar_demo\fig3\ --add_bw_flow --small_bw
+
+python .\demo_un_fig3.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\solar-un-ar-s.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datasets\Solar_demo\f
+ig3\
+
+python .\demo_un_filaments.py --model F:\User_Folders\20222104112CL\biflow_un\evaluate\checkpoints\solar-un-ar-fbar-loss-s.pth --path F:\User_Folders\20222104112CL\PWCNet-MSY\datase
+ts\Solar_demo\filaments_1\
+
