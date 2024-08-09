@@ -1,10 +1,10 @@
 # Transverse Velocity Field Measurement of Solar High-Resolution Images Based on Unsupervised Deep Learning
-The project is to calculate the Transverse velocity field of the solar image and achieve accurate optical flow estimation by calculating the pixel displacement in the image. 
+This repository is the official implementation of the paper Transverse Velocity Field Measurement of Solar High-Resolution Images Based on Unsupervised Deep Learning.
 
 # This repository includes:
 pretrained model and source code of our paper
 # Requirements
-The code has been tested with PyTorch 1.13 and Cuda 11.6.
+The code has been tested with PyTorch 1.7.1 and Cuda 11.0.
 ```Shell
 conda env create -f pwc1.yaml
 conda activate pwc1
@@ -16,7 +16,7 @@ Pretrained model can be find in
 ./checkpoints/solar-un-ar-fbar-loss-s.pth
 ```
 
-You can demo a trained model on a sequence of frames
+You can demo a trained model on a sequence of frames, running this program you will get: residual image, arrow map, optical flow visualization image. The dataset three_velocity contains a solar prominence burst phenomenon, with a total of 23 images, taken by CHASE.
 ```Shell
 python .\demo_un.py --model ./checkpoints/solar-un-ar-fbar-loss-s.pth --path ./dataset/solar_demo/three_velocity/
 ```
